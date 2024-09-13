@@ -2,7 +2,7 @@
 #container{
     background: white;
     padding: 0;
-    height: 50%;
+    height: 43%;
     width: 18%;
     display: flex;
     border-radius: 15px;
@@ -49,3 +49,86 @@
     padding: 15px 15px 0px 15px;
     margin-top: 10px;
     }
+
+    @media (min-width: 319px )and (max-width: 767px)  {
+        #container {
+            width: 80%;  /* Adjust width for smaller screens */
+            height: auto;  /* Allow height to adjust based on content */
+            padding: 10px;  /* Add some padding */
+        }
+    
+        #qr-code-img {
+            width: 100%;  /* Make the QR code image fit the container */
+            height: auto;  /* Adjust height based on width */
+        }
+    
+        #caption {
+            font-size: 20px;  /* Reduce font size for smaller screens */
+        }
+    
+        #subcaption {
+            font-size: 15px;  /* Reduce font size for smaller screens */
+            padding: 10px;  /* Adjust padding */
+            margin-top: 0;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1023px) {
+        #container {
+            height: 45%;
+            width: 40%;
+            padding: 10px; /* Add some padding if needed */
+        }
+    
+        #qr-code-img {
+            width: 80%; /* Adjust image width */
+        }
+    
+        #caption {
+            font-size: 22px; /* Larger font size for captions */
+        }
+    
+        #subcaption {
+            font-size: 18px; /* Larger font size for subcaptions */
+        }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1439px) {
+        #container {
+            height: 50%;
+            width: 35%;
+            padding: 30px; /* Add extra padding for larger screens */
+        }
+    
+        #qr-code-img {
+            width: 80%; /* Adjust image width for this range */
+        }
+    
+        #caption {
+            font-size: 20px; /* Larger font size for captions */
+        }
+    
+        #subcaption {
+            font-size: 18px; /* Larger font size for subcaptions */
+        }
+    }
+    @media (min-width: 2560px){
+        #container {
+            height: 50%;
+            width: 15%;
+            padding: 30px; /* Add extra padding for larger screens */
+        }
+    
+        #qr-code-img {
+            width: 80%; /* Adjust image width for this range */
+        }
+    
+        #caption {
+            font-size: 20px; /* Larger font size for captions */
+        }
+    
+        #subcaption {
+            font-size: 18px; /* Larger font size for subcaptions */
+        }
+    }
+    
+    
