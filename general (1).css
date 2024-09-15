@@ -1,0 +1,17 @@
+body{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    background:hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+html, body {
+    height: 100%; /* Ensure body takes full viewport height */
+    margin: 0;    /* Remove default margin */
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
